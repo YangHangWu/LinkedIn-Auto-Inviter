@@ -35,7 +35,43 @@ I do get several offers with this tool so I decided to publish it to public. I h
 ##### Step 2.3 Install to your operation system and move chromedriver to the same floder as the .ipynb
 <img width="227" alt="截圖 2022-03-04 上午2 34 51" src="https://user-images.githubusercontent.com/39996866/156747685-50a7182d-207a-4c7b-8de3-05dd62536ea2.png">
 
-### Googl Chrome Profile
+### Google Chrome Profile
+To avoid the login process on LinkedIn, this program will load google chrome profile so that there is no need to deal with the login process.
+(make sure you have already use the auto login on your current google account). 
+#### Step 1: Find Out Chrome Profile 
+##### Step 1.1 Go to your chrome browser and run the command
+  <pre><code>chrome://version/</code></pre>
+##### Step 1.2 Find out your profile path
+<img width="582" alt="截圖 2022-03-04 下午1 07 41" src="https://user-images.githubusercontent.com/39996866/156841738-a91f164c-9fe6-4d8d-a9d9-603b9025086e.png">.   
+
+(Here shows my file path is '/Users/yanghangwu/Library/Application Support/Google/Chrome/Profile 2')
+
+## How to use?
+### Step 1: Find the people you would like to connect with by using the build in filter on LinkedIn and copy the url
+<img width="1433" alt="截圖 2022-03-04 下午1 38 24" src="https://user-images.githubusercontent.com/39996866/156845347-8ea98073-3d33-4900-bfc0-1a2ddd5d7189.png">
+
+### Step 2: Parameters Settings
+Open Auto_Inviter.ipynb and find the cooreponding code
+  <pre><code>
+  company_url = 'url of people on LinkedIn you would like to build up connection with'
+  company_name = 'company name' 
+  num = the number of invitations
+  # Note: please don't sent too many invitations at the same time otherwise you will be blocked by the system, my personal experience LOL
+  msg = 'the note which will add on invitations'
+  </code></pre>
+  
+  <pre><code>
+  # One time setting
+  user_profile_path = 'your chrome profile path'
+  chromedriver_path = 'your chromedriver path'
+  </code></pre>
+  
+### Step 3: Run Auto_Inviter.ipynb, it should work like the video below.
+
+
+https://user-images.githubusercontent.com/39996866/156856877-4773ef2b-2a18-4548-b89d-1ae33a1c207e.mp4
 
 
 
+
+  
