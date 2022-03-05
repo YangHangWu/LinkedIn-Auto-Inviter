@@ -26,6 +26,7 @@ I do get several offers with this tool so I decided to publish it to public. I h
 ##### Step 1.2 Go to 'Advanced' -> 'About Chrome' to check the version
 <img width="1334" alt="截圖 2022-03-04 上午2 07 46" src="https://user-images.githubusercontent.com/39996866/156744931-71cbf22a-2fa2-4fde-aaa4-ff9425876f0c.png">
 (Here shows my version of Chrome is 98.xxxx). 
+Note: Some os will automatically upgrade your Chrome to the lastest version, so make sure that you trun off auto-upgrade setting.  
 
 #### Step 2: Download Chrome Webdriver
 ##### Step 2.1 Go to Selenium website and find out the corresonding version of Chrome webdriver [link](https://chromedriver.storage.googleapis.com/index.html)
@@ -41,6 +42,9 @@ To avoid the login process on LinkedIn, this program will load google chrome pro
 #### Step 1: Find Out Chrome Profile 
 ##### Step 1.1 Go to your chrome browser and run the command
   <pre><code>chrome://version/</code></pre>
+  <img width="401" alt="截圖 2022-03-04 下午4 26 26" src="https://user-images.githubusercontent.com/39996866/156859215-72200f52-ab05-4e69-becb-a8153fdf1985.png">
+  
+
 ##### Step 1.2 Find out your profile path
 <img width="582" alt="截圖 2022-03-04 下午1 07 41" src="https://user-images.githubusercontent.com/39996866/156841738-a91f164c-9fe6-4d8d-a9d9-603b9025086e.png">.   
 
